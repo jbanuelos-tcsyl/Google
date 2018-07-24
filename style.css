@@ -1,0 +1,52 @@
+/* Class=____ */
+/* all */
+::-webkit-input-placeholder {
+     font-size: 20px;
+     text-align: center;
+     }
+
+.middleDiv{
+    text-align: center;
+    padding-top: 25vh;
+}
+
+.bottomDiv{
+    background-color: #cccbcb;
+    position: fixed;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+   padding-bottom: 10px
+}
+
+.topDiv{
+    position: fixed;
+   top: 0;
+   width: 100%;
+   color: gray;
+   text-align: left;
+   padding-top: 10px
+}
+
+.search{
+   width: 30vw;
+    height: 5vh;
+    text-align: left
+}
+
+.buttonSize{
+    padding-top: 4vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+/* Left and Right */
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right
+}
