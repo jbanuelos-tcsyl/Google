@@ -5,13 +5,15 @@
      text-align: center;
      }
 
+/* All Divs */
+
 .middleDiv{
     text-align: center;
     padding-top: 25vh;
 }
 
 .bottomDiv{
-    background-color: #cccbcb;
+    background-color: whitesmoke;
     position: fixed;
    bottom: 0;
    width: 100%;
@@ -29,24 +31,63 @@
    padding-top: 10px
 }
 
-.search{
-   width: 30vw;
+/* Search Bar and Buttons */
+
+.searchBar{
+   width: 37vw;
     height: 5vh;
     text-align: left
 }
 
 .buttonSize{
-    padding-top: 4vh;
-    padding-left: 4vw;
-    padding-right: 4vw;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: whitesmoke;
+    border: 0px
+}
+
+.signIn{
+    background-color: rgb(91, 91, 228);
+    color: white;
+    border: 0px;
+    padding: 7px;
+    padding-right: 12px;
+    padding-left: 12px
+}
+
+/* All Pictures */
+
+.icon{
+    width: 20px;
 }
 
 /* Left and Right */
 
-.left{
+.topLeft{
     float: left;
+    padding-top: 8px;
+    padding-left: 10px;
+    font-size: 17px;
 }
 
-.right{
-    float: right
+.topRight{
+    float: right;
+    padding-top: 4px;
+    padding-right: 4px;
+    font-size: 17px;
+}
+
+.bottomLeft{
+    float: left;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    font-size: 17px;
+}
+
+.bottomRight{
+    float: right;
+    padding-bottom: 3px;
+    padding-right: 3px;
+    font-size: 17px;
 }
